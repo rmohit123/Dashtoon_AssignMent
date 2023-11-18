@@ -1,5 +1,5 @@
 import React from "react";
- import styles from "./Panel.module.css";
+
  
  const Panel = ({ images }) => {
  

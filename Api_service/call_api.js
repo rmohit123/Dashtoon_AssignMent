@@ -14,7 +14,7 @@ export async function query(data) {
         body: JSON.stringify(data),
       }
     );
-    console.log(response);
+    // console.log(response);
     const result = await response.blob();
     const imageUrl = URL.createObjectURL(result);
     return imageUrl;

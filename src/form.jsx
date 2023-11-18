@@ -29,7 +29,7 @@ const Form = () =>{
           }
 
           const img1 = new Image();
-          img1.src = img[0];
+          img1.src = img[i];
           //console.log(generatedImages[i]);
 
           pdf.addImage(img1, 'PNG', xOffset, yOffset, 64, 64);
