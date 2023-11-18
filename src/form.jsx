@@ -49,6 +49,7 @@ const Form = () =>{
           setShow(true);
             
         } catch (error) {
+          window.alert('Api Call miss! Please Try again');
             console.log(error);
         }
         
@@ -57,7 +58,7 @@ const Form = () =>{
       <>{
         loading && (
           <>
-          <h3 className="h3_scroll"> Scroll Below </h3>
+          <h3 className="h3_scroll"> Scroll Down To see Results </h3>
           <div className="loading_div">
         
           <div className='disp_img1'>
@@ -73,6 +74,8 @@ const Form = () =>{
       height={50}
       alt="Picture of the author"
     />
+    
+    <h3 id="load_id"> Loading....</h3>
    </div>
    </>
         )

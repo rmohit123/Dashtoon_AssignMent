@@ -221,6 +221,10 @@ h1:hover {
 button{
   margin: auto;
 }
+#load_id{
+  display: inline-block;
+  margin: 8px;
+}
 /* Media queries for responsiveness */
 @media (min-width: 600px) {
   .image-gallery {
